@@ -1,0 +1,44 @@
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+  justify-content: center;
+  align-self: center;
+}
+
+.left-links {
+    margin: -40px;
+    align-self: center;
+    margin-right: auto;
+}
+
+.right-links {
+  align-self: center;
+  margin-left: auto;
+  
+}
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: center;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+  justify-content: space-evenly;
+}
