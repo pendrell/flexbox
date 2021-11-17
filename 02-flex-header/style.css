@@ -17,7 +17,7 @@
 }
 
 .left-links {
-    margin: -40px;
+    margin-left: -48px;
     align-self: center;
     margin-right: auto;
 }
@@ -25,6 +25,7 @@
 .right-links {
   align-self: center;
   margin-left: auto;
+  margin-right: -8px;
   
 }
 
@@ -40,5 +41,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  justify-content: space-evenly;
+  margin: 8px;
 }
